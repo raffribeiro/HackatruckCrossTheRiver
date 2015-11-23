@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A0A4EC61C030A3D0059E24E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0A4EC51C030A3D0059E24E /* AppDelegate.swift */; };
+		6A0A4EC81C030A3D0059E24E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6A0A4EC71C030A3D0059E24E /* GameScene.sks */; };
+		6A0A4ECA1C030A3D0059E24E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0A4EC91C030A3D0059E24E /* GameScene.swift */; };
+		6A0A4ECC1C030A3D0059E24E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0A4ECB1C030A3D0059E24E /* GameViewController.swift */; };
+		6A0A4ECF1C030A3D0059E24E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0A4ECD1C030A3D0059E24E /* Main.storyboard */; };
+		6A0A4ED11C030A3D0059E24E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A0A4ED01C030A3D0059E24E /* Assets.xcassets */; };
+		6A0A4ED41C030A3D0059E24E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0A4ED21C030A3D0059E24E /* LaunchScreen.storyboard */; };
+		6A0A4EDF1C030A3D0059E24E /* CrossTheRiverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0A4EDE1C030A3D0059E24E /* CrossTheRiverTests.swift */; };
+		6A0A4EEA1C030A3D0059E24E /* CrossTheRiverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0A4EE91C030A3D0059E24E /* CrossTheRiverUITests.swift */; };
+		6A0A4F361C03607D0059E24E /* GameSceneInicial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0A4F351C03607D0059E24E /* GameSceneInicial.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A0A4EDB1C030A3D0059E24E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A0A4EBA1C030A3D0059E24E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A0A4EC11C030A3D0059E24E;
+			remoteInfo = CrossTheRiver;
+		};
+		6A0A4EE61C030A3D0059E24E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A0A4EBA1C030A3D0059E24E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A0A4EC11C030A3D0059E24E;
+			remoteInfo = CrossTheRiver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A0A4EC21C030A3D0059E24E /* CrossTheRiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossTheRiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0A4EC51C030A3D0059E24E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A0A4EC71C030A3D0059E24E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		6A0A4EC91C030A3D0059E24E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6A0A4ECB1C030A3D0059E24E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		6A0A4ECE1C030A3D0059E24E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A0A4ED01C030A3D0059E24E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A0A4ED31C030A3D0059E24E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A0A4ED51C030A3D0059E24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A0A4EDA1C030A3D0059E24E /* CrossTheRiverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossTheRiverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0A4EDE1C030A3D0059E24E /* CrossTheRiverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossTheRiverTests.swift; sourceTree = "<group>"; };
+		6A0A4EE01C030A3D0059E24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A0A4EE51C030A3D0059E24E /* CrossTheRiverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossTheRiverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0A4EE91C030A3D0059E24E /* CrossTheRiverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossTheRiverUITests.swift; sourceTree = "<group>"; };
+		6A0A4EEB1C030A3D0059E24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A0A4F351C03607D0059E24E /* GameSceneInicial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSceneInicial.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A0A4EBF1C030A3D0059E24E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0A4ED71C030A3D0059E24E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0A4EE21C030A3D0059E24E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A0A4EB91C030A3D0059E24E = {
+			isa = PBXGroup;
+			children = (
+				6A0A4EC41C030A3D0059E24E /* CrossTheRiver */,
+				6A0A4EDD1C030A3D0059E24E /* CrossTheRiverTests */,
+				6A0A4EE81C030A3D0059E24E /* CrossTheRiverUITests */,
+				6A0A4EC31C030A3D0059E24E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A0A4EC31C030A3D0059E24E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A0A4EC21C030A3D0059E24E /* CrossTheRiver.app */,
+				6A0A4EDA1C030A3D0059E24E /* CrossTheRiverTests.xctest */,
+				6A0A4EE51C030A3D0059E24E /* CrossTheRiverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A0A4EC41C030A3D0059E24E /* CrossTheRiver */ = {
+			isa = PBXGroup;
+			children = (
+				6A0A4EC51C030A3D0059E24E /* AppDelegate.swift */,
+				6A0A4EC71C030A3D0059E24E /* GameScene.sks */,
+				6A0A4EC91C030A3D0059E24E /* GameScene.swift */,
+				6A0A4ECB1C030A3D0059E24E /* GameViewController.swift */,
+				6A0A4F351C03607D0059E24E /* GameSceneInicial.swift */,
+				6A0A4ECD1C030A3D0059E24E /* Main.storyboard */,
+				6A0A4ED01C030A3D0059E24E /* Assets.xcassets */,
+				6A0A4ED21C030A3D0059E24E /* LaunchScreen.storyboard */,
+				6A0A4ED51C030A3D0059E24E /* Info.plist */,
+			);
+			path = CrossTheRiver;
+			sourceTree = "<group>";
+		};
+		6A0A4EDD1C030A3D0059E24E /* CrossTheRiverTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A0A4EDE1C030A3D0059E24E /* CrossTheRiverTests.swift */,
+				6A0A4EE01C030A3D0059E24E /* Info.plist */,
+			);
+			path = CrossTheRiverTests;
+			sourceTree = "<group>";
+		};
+		6A0A4EE81C030A3D0059E24E /* CrossTheRiverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A0A4EE91C030A3D0059E24E /* CrossTheRiverUITests.swift */,
+				6A0A4EEB1C030A3D0059E24E /* Info.plist */,
+			);
+			path = CrossTheRiverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A0A4EC11C030A3D0059E24E /* CrossTheRiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0A4EEE1C030A3D0059E24E /* Build configuration list for PBXNativeTarget "CrossTheRiver" */;
+			buildPhases = (
+				6A0A4EBE1C030A3D0059E24E /* Sources */,
+				6A0A4EBF1C030A3D0059E24E /* Frameworks */,
+				6A0A4EC01C030A3D0059E24E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrossTheRiver;
+			productName = CrossTheRiver;
+			productReference = 6A0A4EC21C030A3D0059E24E /* CrossTheRiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A0A4ED91C030A3D0059E24E /* CrossTheRiverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0A4EF11C030A3D0059E24E /* Build configuration list for PBXNativeTarget "CrossTheRiverTests" */;
+			buildPhases = (
+				6A0A4ED61C030A3D0059E24E /* Sources */,
+				6A0A4ED71C030A3D0059E24E /* Frameworks */,
+				6A0A4ED81C030A3D0059E24E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A0A4EDC1C030A3D0059E24E /* PBXTargetDependency */,
+			);
+			name = CrossTheRiverTests;
+			productName = CrossTheRiverTests;
+			productReference = 6A0A4EDA1C030A3D0059E24E /* CrossTheRiverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A0A4EE41C030A3D0059E24E /* CrossTheRiverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0A4EF41C030A3D0059E24E /* Build configuration list for PBXNativeTarget "CrossTheRiverUITests" */;
+			buildPhases = (
+				6A0A4EE11C030A3D0059E24E /* Sources */,
+				6A0A4EE21C030A3D0059E24E /* Frameworks */,
+				6A0A4EE31C030A3D0059E24E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A0A4EE71C030A3D0059E24E /* PBXTargetDependency */,
+			);
+			name = CrossTheRiverUITests;
+			productName = CrossTheRiverUITests;
+			productReference = 6A0A4EE51C030A3D0059E24E /* CrossTheRiverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A0A4EBA1C030A3D0059E24E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Patricia de Abreu";
+				TargetAttributes = {
+					6A0A4EC11C030A3D0059E24E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					6A0A4ED91C030A3D0059E24E = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 6A0A4EC11C030A3D0059E24E;
+					};
+					6A0A4EE41C030A3D0059E24E = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 6A0A4EC11C030A3D0059E24E;
+					};
+				};
+			};
+			buildConfigurationList = 6A0A4EBD1C030A3D0059E24E /* Build configuration list for PBXProject "CrossTheRiver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A0A4EB91C030A3D0059E24E;
+			productRefGroup = 6A0A4EC31C030A3D0059E24E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A0A4EC11C030A3D0059E24E /* CrossTheRiver */,
+				6A0A4ED91C030A3D0059E24E /* CrossTheRiverTests */,
+				6A0A4EE41C030A3D0059E24E /* CrossTheRiverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A0A4EC01C030A3D0059E24E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0A4EC81C030A3D0059E24E /* GameScene.sks in Resources */,
+				6A0A4ED41C030A3D0059E24E /* LaunchScreen.storyboard in Resources */,
+				6A0A4ED11C030A3D0059E24E /* Assets.xcassets in Resources */,
+				6A0A4ECF1C030A3D0059E24E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0A4ED81C030A3D0059E24E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0A4EE31C030A3D0059E24E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A0A4EBE1C030A3D0059E24E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0A4ECA1C030A3D0059E24E /* GameScene.swift in Sources */,
+				6A0A4ECC1C030A3D0059E24E /* GameViewController.swift in Sources */,
+				6A0A4F361C03607D0059E24E /* GameSceneInicial.swift in Sources */,
+				6A0A4EC61C030A3D0059E24E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0A4ED61C030A3D0059E24E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0A4EDF1C030A3D0059E24E /* CrossTheRiverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0A4EE11C030A3D0059E24E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0A4EEA1C030A3D0059E24E /* CrossTheRiverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A0A4EDC1C030A3D0059E24E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A0A4EC11C030A3D0059E24E /* CrossTheRiver */;
+			targetProxy = 6A0A4EDB1C030A3D0059E24E /* PBXContainerItemProxy */;
+		};
+		6A0A4EE71C030A3D0059E24E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A0A4EC11C030A3D0059E24E /* CrossTheRiver */;
+			targetProxy = 6A0A4EE61C030A3D0059E24E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A0A4ECD1C030A3D0059E24E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A0A4ECE1C030A3D0059E24E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A0A4ED21C030A3D0059E24E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A0A4ED31C030A3D0059E24E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A0A4EEC1C030A3D0059E24E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6A0A4EED1C030A3D0059E24E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A0A4EEF1C030A3D0059E24E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrossTheRiver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.so.c.CrossTheRiver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A0A4EF01C030A3D0059E24E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrossTheRiver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.so.c.CrossTheRiver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6A0A4EF21C030A3D0059E24E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = CrossTheRiverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.so.c.CrossTheRiverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossTheRiver.app/CrossTheRiver";
+			};
+			name = Debug;
+		};
+		6A0A4EF31C030A3D0059E24E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CrossTheRiverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.so.c.CrossTheRiverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossTheRiver.app/CrossTheRiver";
+			};
+			name = Release;
+		};
+		6A0A4EF51C030A3D0059E24E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = CrossTheRiverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.so.c.CrossTheRiverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CrossTheRiver;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6A0A4EF61C030A3D0059E24E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CrossTheRiverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.so.c.CrossTheRiverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CrossTheRiver;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A0A4EBD1C030A3D0059E24E /* Build configuration list for PBXProject "CrossTheRiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0A4EEC1C030A3D0059E24E /* Debug */,
+				6A0A4EED1C030A3D0059E24E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A0A4EEE1C030A3D0059E24E /* Build configuration list for PBXNativeTarget "CrossTheRiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0A4EEF1C030A3D0059E24E /* Debug */,
+				6A0A4EF01C030A3D0059E24E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A0A4EF11C030A3D0059E24E /* Build configuration list for PBXNativeTarget "CrossTheRiverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0A4EF21C030A3D0059E24E /* Debug */,
+				6A0A4EF31C030A3D0059E24E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A0A4EF41C030A3D0059E24E /* Build configuration list for PBXNativeTarget "CrossTheRiverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0A4EF51C030A3D0059E24E /* Debug */,
+				6A0A4EF61C030A3D0059E24E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A0A4EBA1C030A3D0059E24E /* Project object */;
+}
